@@ -1,5 +1,5 @@
 
-/*GERAL*/
+/* ------------GERAL------------------*/
 
 body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -63,6 +63,8 @@ nav ul li a {
 	text-decoration: none;
 	color: #f1f1f1;
 }
+
+/* -------------- PAGINA HOME ----------------- */
 
 /*CABEÇALHO*/
 
@@ -172,14 +174,15 @@ header div {
 	width: 100%;
 }
 
-/*RECEITAS*/
+/*ICONES RECEITAS*/
 
 .receitas {
 	padding: 50px 45px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: #363636;		
+	color: #363636;	
+	margin-bottom: 60px;	
 }
 
 .receitas div {
@@ -298,7 +301,7 @@ header div {
 .rodape {
 	width: 100%;
 	display: inline-block;
-	margin: 0 auto;
+	margin-top: 50px;
 	padding: 10px;
 	text-align: center;
 	background-color:#6d351a;
@@ -362,13 +365,117 @@ header div {
 	#portfolio img {
 		width: 33.3333333333%;
 	}
-	footer{
-		background-color: #FFFFE0;
-	}
 		
 }
 
-/*PAGINA 2 | RECEITAS - REFEIÇOES*/
+/* ----------- PAGINA AGUA --------------- */
+
+/*SOBRE AGUA*/ 
+
+#sobreagua{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	align-items: center;
+	text-align: center;
+	color: #4C230A;
+	text-align: justify;
+	margin-top: 30px;
+}
+
+#sobreagua h1{
+	margin-bottom: 40px;
+}
+
+#sobreagua p{
+	margin-bottom: 2.5em;
+	max-width: 900px;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+/* DICAS E SOLUÇOES */
+
+.fundotitulo{
+	background-color: F4D06F;
+}
+#dicasesoluc{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	align-items: center;
+	text-align: center;
+	color:#4C230A;
+}
+#dicasesoluc h2{
+	background-color:#F4D06F; 
+	padding: 30px;
+	width: 100%;
+	color: #4C230A;;
+}
+
+#dicasesoluc p{
+	margin-bottom: 2.5em;
+	max-width: 900px;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: #4C230A;
+	text-align: justify;
+}
+
+/*PRODUTOS*/
+
+#prodagua{
+	text-align: center;
+	padding: 30px 0;
+	background-color: #F4D06F;
+	color: #4C230A;
+}
+
+.produtoconsumo {
+	display: flex;
+	float: left;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+	color: #4C230A;
+}
+
+.produtoconsumo p{
+	margin-bottom: 2.5em;
+	width: 800px;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+.produtoconsumo img{
+	padding: 100px;
+	width: 300px;
+	height: 250px;
+}
+
+/*DICAS*/
+
+#dicasagua{
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 100px;
+	margin-left: 0;
+	color: #4C230A;
+}
+
+#dicasagua p{	
+	width: 800px;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-align: justify;	
+}
+
+/* -----------PAGINA RECEITAS ------------*/
 
 .aliment h1{
 	text-align: center;
@@ -401,6 +508,8 @@ header div {
 	margin: 100px 0 60px 0;
 }
 
+/*RECEITAS*/
+
 .contreceitas{
 	display: inline-block;
 	flex-direction: column;
@@ -427,6 +536,8 @@ header div {
 	margin: 0 auto;
 }
 
+/*PREPARO*/
+
 .preparo {
 	width: 50%;
 	flex-direction: column;
@@ -442,3 +553,132 @@ header div {
 	text-align: justify;
 }
 
+/* ------------ PAGINA LIXO ------------*/
+
+/*HEADER LIXO*/
+
+#headerlixo {	
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #27150c;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+	font-size: 19px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#headerlixo p {
+	margin-bottom: 2em;
+	color: #3d2417;
+}
+
+#headerlixo div {
+	background-color: #f0f0f0;
+	padding: 30px;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+
+/* SOBRE LIXO*/
+
+#sobrelixo{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	align-items: center;
+	text-align: center;
+	color: #6d351a;
+	margin-bottom: 50px;
+}
+
+#sobrelixo p{
+	margin-bottom: 2.5em;
+	max-width: 900px;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+/* DICAS DE RECICLAGEM */
+
+#dicasrecicla{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	align-items: center;
+	text-align: center;
+	background-color:#F4D06F;
+	color: #572b17;
+}
+
+#dicasrecicla p{
+	margin-bottom: 2.5em;
+	max-width: 900px;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+/* COMPOSTAGEM */
+
+#compostagem {
+	display: flex;
+	float: left;
+	padding: 30px;
+	align-items: center;
+	text-align: center;
+	color: #6d351a;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#compostagem p{
+	margin-bottom: 2.5em;
+	max-width: 900px;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+#compostagem img{
+	padding: 20px;
+	width: 550px;
+	height: 400px;
+}
+
+#compostagem a{
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(90, 29, 7);
+}
+
+/* REUTILIZAR */
+
+#reutilizar{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	align-items: center;
+	text-align: center;
+	color: #572b17;	
+	margin-bottom: 60px;
+}
+
+#reutilizar h2{
+	background-color:#F4D06F;
+	width: 100%;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+
+#reutilizar p{
+	margin-bottom: 2.5em;
+	max-width: 900px;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-align: justify
+}
