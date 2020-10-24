@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Curso HTML e CSS</title>
+		<title>Planeta Sustentável - Alimentação</title>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="reset.css">
@@ -12,19 +12,29 @@
 		<nav>
 			<a href="index.html">Planeta Sustentável</a>
 			<ul>
-				<li><a href="#sobre">SOBRE</a></li>
-				<li><a href="#receitas">RECEITAS</a></li>
-				<li><a href="#vegan">VEGANISMO</a></li>
-				<li><a href="#vegan">POST</a></li>
+				<li><a href="index.html">SOBRE</a></li>
+				<li><a href="agua.html">ÁGUA</a></li>
+				<li><a href="receitas.html">ALIMENTAÇÃO</a></li>
+				<li><a href="lixo.html">LIXO</a></li>
+				<li><a href="#reflor.html">REFLORESTAMENTO</a></li>
 			</ul>
 		</nav>
 
 		<section>
-			<h1 id="titulorefeicoes">Receitas de Refeiçoes</h1>
-			<div id="ingredientes" >				
-				<h2>Lasanha de legumes</h2>
+			<div class="aliment">
+				<h1>Tenha uma alimentação mais sustentável</h1>	
+				<img src="img/organic.png" id="organic" alt="Cesta">			
+				<p>A alimentação está diretamente relacionada com a sustentabilidade. O consumo de carne, por exemplo, afeta o meio ambiente de diferentes formas, e muitas pesquisas buscam entender como a pecuária interfere nas mudanças ambientais.</p>
+				<p>Nesse cenário, muitos movimentos que incentivam as pessoas a reduzirem o consumo de carne, como o “Segunda sem carne”, surgiram. A ideia é trocar a proteína animal pela vegetal e descobrir receitas e sabores novos. Com isso, é possível ter atitudes mais sustentáveis e que causam menos impactos ao meio ambiente.</p>
+				<p> Separamos algumas receitas para te inspirar e mostrar como podemos ter uma alimentação mais saudável e sustentável.</p>
+			</div>
+
+			<h2 class="tituloreceitas">RECEITAS</h2>
+			<form action="receitas.html"></form>
+			<div class="contreceitas" >							
+				<h2 id="refeicoes">Lasanha de legumes</h2>
 				<img src="img/lasanha.jpg" width="500">
-				<h2>Lista de ingredientes</h2>
+				<h3>Lista de ingredientes</h3>
 				<ul>
 					<li>100 g de massa pré cozida de macarrão integral de lasanha</li>
 					<li>1 litro de leite de coco artesanal</li>
@@ -43,19 +53,94 @@
 				</ul>
 			</div>
 			
-			<div id="preparo">
-				<h2>Modo de preparo</h2>
-				<h3>Molho bechamel vegano</h3>
-				<p>Faça um litro de leite de coco com a polpa de 1 coco e 3 xícaras de água fervendo. Leve ao liquidificador e depois de bater bastante passe por uma peneira fina.
-				Doure a cebola e o alho, em seguida, acrescente o leite e leve à fervura. Acrescente o polvilho aos poucos dissolvido em água fria e quando estiver na textura desejada desligue e reserve.</p>
-
-				<h3>Legumes a grega</h3>
-				<p>Doure a cebola e o alho com azeite, em seguida, acrescente os legumes e deixe passar no azeite até que fiquem macios. Acerte o sal e a pimenta, acrescente o chimichurri. Se for necessário, pode acrescentar mais azeite. Reserve.</p>
-
-				<h3>Montagem</h3>
-				<p>Numa fôrma pequena retangular, coloque o bechamel no fundo e depois uma camada de massa de lasanha integral. Em seguida, disponha os legumes à grega e vá intercalando massa recheio e molho bechamel vegano e finalize com o molho vegano. Leve ao forno para assar por 30 minutos.</p>
+			<div class="preparo">
+				<h3>Modo de preparo</h3>
+				<ol>			
+					<li>Faça um litro de leite de coco com a polpa de 1 coco e 3 xícaras de água fervendo. Leve ao liquidificador e depois de bater bastante passe por uma peneira fina. Doure a cebola e o alho, em seguida, acrescente o leite e leve à fervura. Acrescente o polvilho aos poucos dissolvido em água fria e quando estiver na textura desejada desligue e reserve.</li>	
+					<li>Doure a cebola e o alho com azeite, em seguida, acrescente os legumes e deixe passar no azeite até que fiquem macios. Acerte o sal e a pimenta, acrescente o chimichurri. Se for necessário, pode acrescentar mais azeite. Reserve.</li>
+					<li>Numa fôrma pequena retangular, coloque o bechamel no fundo e depois uma camada de massa de lasanha integral. Em seguida, disponha os legumes à grega e vá intercalando massa recheio e molho bechamel vegano e finalize com o molho vegano. Leve ao forno para assar por 30 minutos.</li>
+				</ol>
 			</div>
 		</section>
+
+		<section>			
+			<div class="contreceitas">				
+				<h2>Brigadeiro de inhame</h2>
+				<img src="img/brigad.jpg" width="500">
+				<h3>Lista de ingredientes</h3>
+				<ul>
+					<li>1 unidade inhame médio 250g</li>
+					<li>2/3 xícara chocolate meio amargo</li>
+					<li>1/2 xícara água do cozimento</li>
+					<li>1/2 xícara leite vegetal</li>
+					<li>1/2 xícara açúcar demerara</li>
+					<li>1/2 xícara granulado</li>
+					<li>3 colher sopa cacau em pó</li>					
+				</ul>
+			</div>				
+			<div class="preparo">
+				<h3>Modo de preparo</h3>
+				<ol>
+					<li>Descascar e picar o inhame e cozinhar até que esteja macio. Bater no liquidificador com os líquidos. Levar o creme em uma panela em fogo baixo e adicionar o chocolate picado, o açúcar e o cacau em pó. Reduzir por cerca de 30 minutos.</li>
+					<li>Levar o brigadeiro ao freezer por cerca de 30 minutos ou geladeira até gelar. Untar a mão com óleo e fazer bolinhas de brigadeiro. Passar no granulado.</li>
+				</ol>
+			</div>
+		</section>
+
+		<section>			
+			<div class="contreceitas" >				
+				<h2>Hambúrguer de Lentilha</h2>
+				<img src="img/hamburg.jpg" width="500">
+				<h3>Lista de ingredientes</h3>
+				<ul>
+					<li>1 xícara (de chá) de lentilha crua</li>
+					<li>4 xícaras (de chá) de água</li>
+					<li>1 dente de alho grande picado</li>
+					<li>1/2 xícara (de chá) de cebola picada</li>
+					<li>1/2 xícara (de chá) de cheiro verde picado</li>
+					<li>1 colher (de sopa) de azeite</li>
+					<li>Cominho a gosto</li>
+					<li>1/2 xícara (de chá) de farinha de trigo integral</li>						
+				</ul>
+			</div>				
+			<div class="preparo">
+				<h3>Modo de preparo</h3>
+				<ol>				
+					<li>Deixe a lentilha de molho por 8 horas antes de cozinhar, em seguida cozinhe ela na pressão por apenas 5 minutos depois que pegar pressão ou um pouquinho mais, caso for necessário, até ela ficar macia.</li>
+					<li>Em uma recipiente adicione o alho, a cebola, o cheiro verde, o azeite, o sal, tempere com cominho a gosto, e misture.</li>
+					<li>Acrescente a farinha de trigo integral aos poucos, até dar o ponto de modelar. (Evite colocar muita farinha, senão seu hambúrguer perderá o sabor da lentilha).</li>
+					<li>Divida a massa em 5 partes iguais e passe um fio de óleo nas mãos. Modele os hambúrgueres com cerca de 1,5cm de espessura.</li>
+					<li>Coloque os hambúrgueres em uma forma untada ou com papel manteiga e leve ao freezer por uma hora.</li>
+					<li>Retire com cuidado, frite em uma frigideira antiaderente com um fio de óleo, e vire o hambúrguer quando ele estiver bem douradinho.</li>
+					<li>Sirva como preferir, eu montei um lanche com pão integral, alface, tomate e cebola. Está pronto!</li>
+					</ol>	
+			</div>
+		</section>
+
+		<section>			
+			<div class=contreceitas>				
+				<h2>Leite de Gergelim</h2>
+				<img src="img/leiteveg.jpg" width="500">
+				<h3>Lista de ingredientes</h3>
+				<ul>
+					<li>1 xícara de gergelim bege ou preto (o preto é o que tem mais cálcio)</li>
+					<li>3 xícaras de água filtrada</li>										
+				</ul>
+			</div>				
+			<div class="preparo">
+				<h3>Modo de preparo</h3>
+				<ol>
+					<li>Deixe o gergelim de molho na água por 8 a 12 horas.</li>
+					<li>Depois desse tempo jogue a água fora.</li>
+					<li>Bata no liquidificador com 3 a 4 xícaras de água filtrada (depende se você quer leite mais grosso ou não)e depois coe.</li>
+					<li>Use o que sobra para fazer o “queijelim”, uma ricota. É só temperar com o que você quiser (orégano, salsinha, sal rosa, óleo de gergelim ou azeite, etc.).</li>
+				</ol>
+			</div>
+		</section>
+
+		<footer class="rodape">
+		 	<p>Grupo: Planeta Sustentável</p>
+		</footer>
 
 	</body>
 </html>

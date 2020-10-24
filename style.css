@@ -4,8 +4,10 @@
 body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	color: #363636;
-	background-color: #FFFFE0;
-}
+	background-color:rgb(255, 255, 255);
+	max-width: 100%;
+	overflow-x: hidden; 
+}	
 
 h1, h2, h3 {
 	margin: 0;
@@ -38,7 +40,6 @@ nav > a {
 	font-weight: 700;
 	font-size: 30px;
 	font-family: "Dancing Script", serif, bold;
-
 }
 
 nav ul {
@@ -98,7 +99,6 @@ header div {
 	align-items: center;
 	text-align: center;
 	padding: 50px;
-	background-color: #F4D06F;
 	color: #4C230A;
 }
 
@@ -109,15 +109,77 @@ header div {
 	line-height: 1.5;
 }
 
-/*RECEITAS*/
+/*AGUA*/
 
-.receitas {
-	padding: 30px;
+.agua{
+	display: inline-block;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	padding: 20px 0px 90px 0px;
+	color: #4C230A;;
+}
+
+.agua h2{
+	text-align: center;
+	font-size: 22px;
+	background-color:#F4D06F;
+	padding: 20px;
+	color: #4C230A;
+}
+
+.agua p{
+	line-height: 1.5;
+	text-align: left;	
+	width: 600px;
+	font-size: 18px;
+	margin: 140px 0px 40px 60px;
+}
+
+.video{
+	float: right;
+	margin-right: 50px;
+	margin-top: 80px;	
+}
+
+.aagua {
+	color:  #ffffff ;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #6d351a;
+	font-size: .9em;
+	border-radius: 4px;	
+	font-weight: bold;
+	margin: 30px 60px;
+}
+
+/*PORTFOLIO*/
+
+#portfolio {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: #363636;
-	background: #FFFFE0;
+	padding-top: 20px;
+	color: #4C230A;
+	background-color: #F4D06F;
+	width: 100%;
+}
+
+#portfolio h2 {
+	margin-bottom: 20px;
+}
+
+#portfolio img {
+	width: 100%;
+}
+
+/*RECEITAS*/
+
+.receitas {
+	padding: 50px 45px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #363636;		
 }
 
 .receitas div {
@@ -129,6 +191,14 @@ header div {
 	font-size: 18px;
 }
 
+.receitas p{
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
 .receitas a {
 	text-decoration: none;
 	color: #363636;
@@ -136,86 +206,106 @@ header div {
 
 .receitas img {
 	width: 60px;
+	margin-top: 20px;
 }
 
 .passarmouse:hover {
 	 transform: scale(1.1);
 }
 
-
-/*PORTFOLIO*/
-
-#portfolio {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 20px;
-	color: #4C230A;
-	background-color: #F4D06F;
-}
-
-#portfolio h2 {
-	margin-bottom: 20px;
-}
-
-#portfolio img {
-	width: 100%;
-}
-
 /*LIXO*/
-.lixo {	
-	padding: 50px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	color: #363636;
-	background: #FFFFE0;
+
+.lixo{
+	display: inline-block;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	margin: 20px 0;
+	padding-bottom: 50px;
+	color: #4C230A;;
+}
+.lixo h2{
+	text-align: center;
+	background-color:  #F4D06F;
+	padding: 30px;
 }
 
-.lixo div {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	margin: 50px 15px;	
+.lixo p{
+	margin: 150px 0px 30px 660px;
+	line-height: 1.5;
+	text-align: justify;
+	width: 595px;
 	font-size: 18px;
 }
 
-.lixo a {
+.lixoimg{
+	float: left;
+	margin: 50px;
+	margin-top: 80px;
+}
+
+.alixo {
+	color:  #ffffff ;
 	text-decoration: none;
-	color: #363636;
+	padding: 10px 35px;
+	background-color: #6d351a;
+	font-size: .9em;
+	border-radius: 4px;	
+	font-weight: bold;
+	margin-left: 50px;
 }
 
-.lixo img {
-	width: 60px;
-}
-
-/*IMPACTO NAS AÇOES*/
-#vegan{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	padding: 50px;
-	background-color: #F4D06F;
+.reflor {
+	display: inline-block;
+	width: 100%;
+	background-color:rgb(255, 255, 255);
+	margin: 20px 0px;
+	padding-bottom: 80px;
 	color: #4C230A;
 }
 
-#vegan p {
-	margin-bottom: 2.5em;
-	max-width: 700px;
-	font-size: 18px;
-	line-height: 1.5;
-}
-
-/*FOOTER*/
-footer{
+.reflor h2{
 	text-align: center;
-	background-color: #4C230A;
-	padding: 10px;	
-	color: #FFFFE0;
+	background-color:  #F4D06F;
+	padding: 30px;
 }
 
+.reflor p{
+	margin: 130px 40px 40px 50px;
+	line-height: 1.5;
+	text-align: justify;
+	width: 595px;
+	font-size: 18px;
+}
+
+.reflorimg {
+	float: right;
+	margin-right: 0px;
+	margin-top: 80px;
+}
+
+.areflor{
+	color:  #ffffff ;
+	text-decoration: none;
+	padding: 10px 35px;
+	background-color:#6d351a;
+	font-size: .9em;
+	border-radius: 4px;	
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.rodape {
+	width: 100%;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	background-color:#6d351a;
+	font-weight: bold;
+	color: rgb(235, 235, 235);
+}
+	
 /*MEDIA QUERIE*/
 
 @media screen and (min-width: 768px) {
@@ -237,14 +327,6 @@ footer{
 		height: 60vh;
 		justify-content: center; 
 	} 
-
-	/*Sobre*/
-	#sobre {
-		height: 250px;
-		height: 30vh;
-		justify-content: center;
-		min-width: 250px;
-	}
 
 	/*RECEITAS*/
 	.receitas {
@@ -280,71 +362,83 @@ footer{
 	#portfolio img {
 		width: 33.3333333333%;
 	}
-
-	/*LIXO*/
-	.lixo {
-		flex-direction: row;
-		flex-wrap: wrap;
-		align-items: flex-start;
-		max-width: 1000px;
-		margin: 0 auto;
+	footer{
+		background-color: #FFFFE0;
 	}
-
-	.lixo h2 {
-		text-align: center;
-		width: 100%;
-	}
-
-	.lixo div {
-		flex-grow: 1;
-		flex-basis: 200px;
-		padding: 0 10px;	
-	}
-
-	/*Vegan*/
-	#vegan p, h2 {
-		padding: 10px 30px;		
-	}	
+		
 }
 
 /*PAGINA 2 | RECEITAS - REFEIÇOES*/
 
-#titulorefeicoes {
+.aliment h1{
 	text-align: center;
-	padding: 40px 0px 30px 0px;	
+	padding:20px;
+	margin: 60px 0 30px 0;
 	color: #4C230A;
+}
+.aliment p{
+	display: inline-block;
+	width: 790px;
+	color: #4C230A;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 20px 0 10px 50px;
+	text-align: justify;
+
+}
+#organic{
+	display: inline-block;
+	float: right;
+	margin: 0 60px 0 0px;
+}	
+
+.tituloreceitas{
+	text-align: center;
+	color: #4C230A;
+	background-color:#F4D06F;
 	width: 100%;
+	padding: 30px;
+	margin: 100px 0 60px 0;
 }
 
-#ingredientes {
+.contreceitas{
 	display: inline-block;
-	float: left;
 	flex-direction: column;
 	padding: 10px 30px;
 	font-size: 18px;
 	line-height: 1.7;
-	color: #4C230A
+	color: #4C230A;
+	margin-left: 100px;
 }
-
-#ingredientes h2 {
+.contreceitas h2 {
 	text-align: center;
 	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
-#ingredientes img {
-	width: 100%;
-	margin: 10px 30px 10px;	
+.contreceitas h3{
+	margin-top: 20px;
 }
 
-#preparo {
+.contreceitas img {
 	width: 100%;
+	margin: 0 auto;
+}
+
+.preparo {
+	width: 50%;
 	flex-direction: column;
 	padding: 10px 30px;
 	font-size: 18px;
 	line-height: 1.7;
-	width: 600px;
-	float: left;
 	padding: 10px 50px;
 	color: #4C230A;
+	margin-left: 100px;
+}
+.preparo li{
+	margin-bottom: 17px;
+	text-align: justify;
 }
 
