@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 	<head>
 		<title>Planeta Sustentável - Alimentação</title>
+		<script src="script.js"></script>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="reset.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script src="script.js"></script>
 	</head>
 
 	<body>			
@@ -16,7 +19,7 @@
 				<li><a href="agua.html">ÁGUA</a></li>
 				<li><a href="receitas.html">ALIMENTAÇÃO</a></li>
 				<li><a href="lixo.html">LIXO</a></li>
-				<li><a href="reflor.html">REFLORESTAMENTO</a></li>
+				<li><a href="#reflor.html">REFLORESTAMENTO</a></li>
 			</ul>
 		</nav>
 
@@ -28,8 +31,25 @@
 				<p>Nesse cenário, muitos movimentos que incentivam as pessoas a reduzirem o consumo de carne, como o “Segunda sem carne”, surgiram. A ideia é trocar a proteína animal pela vegetal e descobrir receitas e sabores novos. Com isso, é possível ter atitudes mais sustentáveis e que causam menos impactos ao meio ambiente.</p>
 				<p> Separamos algumas receitas para te inspirar e mostrar como podemos ter uma alimentação mais saudável e sustentável.</p>
 			</div>
+				
+			<h2 id="topo" class="tituloreceitas">RECEITAS</h2>
+			
+			<center><select id="link">
+				<option value="" selected>Escolha a  Receita</option>
+				<option value="#refeicoes">Lasanha de Legumes</option>
+				<option value="#B">Briagadeiro de Inhame</option>
+				<option value="#hamburguer">Hamburguer de Lentilha</option>]
+				<option value="#leite">Leite de Gergelim de Lentilha</option>
+				Leite de Gergelim
+			 </select>
+			 
+				
+			 
+			 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+			 <script src="script.js"></script>
+			</center>
 
-			<h2 class="tituloreceitas">RECEITAS</h2>
+
 			<form action="receitas.html"></form>
 			<div class="contreceitas" >							
 				<h2 id="refeicoes">Lasanha de legumes</h2>
@@ -65,7 +85,8 @@
 
 		<section>			
 			<div class="contreceitas">				
-				<h2>Brigadeiro de inhame</h2>
+				<h2 id="B" >Brigadeiro de inhame</h2>
+				<center><a href="#topo">Inicio</a></center>
 				<img src="img/brigad.jpg" width="500">
 				<h3>Lista de ingredientes</h3>
 				<ul>
@@ -89,7 +110,8 @@
 
 		<section>			
 			<div class="contreceitas" >				
-				<h2>Hambúrguer de Lentilha</h2>
+				<h2 id="hamburguer">Hambúrguer de Lentilha</h2>
+				<center><a href="#topo">Inicio</a></center>
 				<img src="img/hamburg.jpg" width="500">
 				<h3>Lista de ingredientes</h3>
 				<ul>
@@ -119,7 +141,8 @@
 
 		<section>			
 			<div class=contreceitas>				
-				<h2>Leite de Gergelim</h2>
+				<h2 id="leite">Leite de Gergelim</h2>
+				<center><a href="#topo">Inicio</a></center>
 				<img src="img/leiteveg.jpg" width="500">
 				<h3>Lista de ingredientes</h3>
 				<ul>
@@ -141,5 +164,6 @@
 		<footer class="rodape">
 		 	<p>Grupo: Planeta Sustentável</p>
 		</footer>
+
 	</body>
 </html>
