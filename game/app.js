@@ -138,8 +138,10 @@ function tryAgainQuiz(){
 
 function goToHome(){
     resultBox.classList.add("hide");
-    homeBox.classList.remove("hide");
+    homeBox.classList.add("hide");
+    quizBox.classList.add("hide");
     resetQuiz();
+    window.location="../index.html";
 }
 
 function startQuiz(){
