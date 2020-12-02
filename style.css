@@ -373,6 +373,8 @@ header div {
 /*SOBRE AGUA*/ 
 
 #sobreagua{
+	width: 80%;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	padding: 30px;
@@ -380,18 +382,28 @@ header div {
 	text-align: center;
 	color: #4C230A;
 	text-align: justify;
-	margin-top: 30px;
 }
 
 #sobreagua h1{
-	margin-bottom: 40px;
+	margin-bottom: 40px;	
+}
+
+#sobreagua h2{
+	width: 100%;
+	margin: 40px auto;
+	display: block;
+	padding: 20px;
+	text-align: center;
 }
 
 #sobreagua p{
-	margin-bottom: 2.5em;
+	width: 100%;
+	display: block;
+	margin: 15px auto;
 	max-width: 900px;
 	font-size: 18px;
 	line-height: 1.5em;
+	text-align: justify;
 }
 
 /* DICAS E SOLUÇOES */
@@ -400,6 +412,8 @@ header div {
 	background-color: F4D06F;
 }
 #dicasesoluc{
+	width: 80%;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	padding: 30px;
@@ -411,11 +425,19 @@ header div {
 	background-color:#F4D06F; 
 	padding: 30px;
 	width: 100%;
-	color: #4C230A;;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	color: #4C230A;
+}
+
+#dicasesoluc h3{
+	width: 70%;
+	margin: 10px auto;
+
 }
 
 #dicasesoluc p{
-	margin-bottom: 2.5em;
+	margin: 15px auto;
 	max-width: 900px;
 	font-size: 18px;
 	line-height: 1.5em;
@@ -423,11 +445,31 @@ header div {
 	text-align: justify;
 }
 
+.videoagua{
+	margin: 50px auto;
+}
+
+#dicasesoluc li{
+	width: 80%;
+	text-align: justify;
+	margin: 16px auto;
+	font-size: 18px;
+}
+
+
 /*PRODUTOS*/
 
+#produtosfrabic{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
 #prodagua{
+	width: 100%;
+	display: block;
 	text-align: center;
-	padding: 30px 0;
+	padding: 30px;
 	background-color: #F4D06F;
 	color: #4C230A;
 }
@@ -439,19 +481,31 @@ header div {
 	align-items: center;
 	text-align: center;
 	color: #4C230A;
+	margin: 0 auto;
 }
 
 .produtoconsumo p{
 	margin-bottom: 2.5em;
-	width: 800px;
+	width: 600px;
+	margin: 0 auto;
 	font-size: 18px;
 	line-height: 1.5em;
 	text-align: justify;
 }
 .produtoconsumo img{
-	padding: 100px;
+	padding:50px;
 	width: 300px;
 	height: 250px;
+	margin: 0 auto;
+}
+
+#finalagua{
+	width: 70%;
+	padding: 30px;
+	margin: 0 auto;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 1.5em;
 }
 
 /*DICAS*/
@@ -707,4 +761,72 @@ header div {
 	border-radius: 7px;	
 	margin: 20px auto;
 	text-align: center;
+}
+
+/*PAGINA REFLORESTAMENTO*/
+
+#plant{
+	width: 80%;
+	display: block;
+	margin: 50px auto;
+}
+
+.reflorestamento h1{
+	width: 100%;
+	display: block;
+	padding: 30px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.reflorestamento h2{
+	width: 100%;
+	display: block;
+	margin: 50px auto;
+	text-align: center;	
+}
+
+.reflorestamento p{
+	width: 60%;
+	display: block;
+	margin: 20px auto;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+#videoreflor{
+	display: block;
+	margin: 60px auto;
+}
+
+#plantearvores{
+	width: 70%;
+	background-color: #F4D06F;
+	padding: 15px;
+
+}
+
+#contato{
+	width: 50%;
+	padding: 50px;
+	display: block;
+	margin: 60px auto;
+	background-color: khaki;
+	border-radius: 8px;
+}
+
+#contato p{
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#entradaemail{
+	width: 70%;
+	padding: 12px;
+	display: block;
+	margin: 20px auto;	
+	border-color: #F4D06F;
+	border-width: medium;
 }
