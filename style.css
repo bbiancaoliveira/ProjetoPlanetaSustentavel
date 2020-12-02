@@ -612,102 +612,128 @@ header div {
 /*HEADER LIXO*/
 
 #headerlixo {	
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	color: #27150c;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	width: 80%;
+	display: block;
+	margin: 0 auto;	
+	
+}
+
+#headerlixo h1{
+	width: 100%;
+	margin: 60px auto;
 	text-align: center;
-	padding: 30px;
-	font-size: 19px;
-	margin-top: 50px;
-	margin-bottom: 50px;
 }
 
 #headerlixo p {
-	margin-bottom: 2em;
-	color: #3d2417;
+	width: 100%;
+	margin: 60px auto;
+	font-size: 20px;
+	text-align: center;	
+	line-height: 1.5;
 }
 
-#headerlixo div {
-	background-color: #f0f0f0;
-	padding: 30px;
-	border-radius: 10px;
-	opacity: 0.8;
+#headerlixo img{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
 }
 
 /* SOBRE LIXO*/
 
 #sobrelixo{
-	display: flex;
-	flex-direction: column;
-	padding: 30px;
-	align-items: center;
+	width: 80%;
+	display: block;
+	margin: 0 auto;		
+}
+
+#sobrelixo h2{
 	text-align: center;
-	color: #6d351a;
-	margin-bottom: 50px;
+	margin: 50px auto;
 }
 
 #sobrelixo p{
-	margin-bottom: 2.5em;
-	max-width: 900px;
+	width: 85%;
+	margin: 20px auto;
 	font-size: 18px;
-	line-height: 1.5em;
 	text-align: justify;
+	line-height: 1.5;	
 }
 
 /* DICAS DE RECICLAGEM */
 
 #dicasrecicla{
-	display: flex;
-	flex-direction: column;
-	padding: 30px;
-	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#dicasrecicla h2{
+	width: 100%;
+	padding: 20px;
+	margin: 65px auto;
 	text-align: center;
-	background-color:#F4D06F;
-	color: #572b17;
+	background-color: #F4D06F; 
+}
+
+#dicasrecicla h3{
+	text-align: justify;
+	margin-left: 80px;
+	margin-bottom: 35px;
+	margin-top: 30px;
+	
 }
 
 #dicasrecicla p{
-	margin-bottom: 2.5em;
-	max-width: 900px;
+	width: 85%;
+	margin: 20px auto;
 	font-size: 18px;
-	line-height: 1.5em;
+	text-align: justify;
+	line-height: 1.5;	
 }
 
 /* COMPOSTAGEM */
 
 #compostagem {
-	display: flex;
-	float: left;
-	padding: 30px;
+	width: 100%;	
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 10px;	
 	align-items: center;
+}
+
+#compostagem h2{
+	width: 80%;
+	padding: 20px;
+	margin-bottom: 110px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	color: #6d351a;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	background-color: #F4D06F; 	
 }
 
 #compostagem p{
-	margin-bottom: 2.5em;
-	max-width: 900px;
+	width: 35%;	
 	font-size: 18px;
-	line-height: 1.5em;
+	line-height: 1.5;
 	text-align: justify;
+	margin-left: 60px;
+	margin-top: 180px;
 }
 
-#compostagem img{
-	padding: 20px;
-	width: 550px;
-	height: 400px;
+#videocompost{
+	float: right;
+	margin-right: 45px;
+	margin-bottom: 80px;
 }
 
 #compostagem a{
+	width: 20px;
 	text-decoration: none;
 	font-weight: bold;
-	color: rgb(90, 29, 7);
+	color: rgb(255, 255, 255);
+	background-color: rgb(90, 29, 7);
+	padding: 5px;
+	margin-left: 60px;
+	border-radius: 5px;
 }
 
 /* REUTILIZAR */
@@ -718,25 +744,33 @@ header div {
 	padding: 30px;
 	align-items: center;
 	text-align: center;
-	color: #572b17;	
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 
 #reutilizar h2{
-	background-color:#F4D06F;
-	width: 100%;
-	padding: 30px;
+	width: 80%;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 50px;
+	text-align: center;
+	background-color: #F4D06F; 	 
 }
 
 #reutilizar p{
-	margin-bottom: 2.5em;
 	max-width: 900px;
 	font-size: 18px;
 	line-height: 1.5em;
-	text-align: justify
+	text-align: justify;
 }
 
+#reutilizar li{
+	width: 90%;
+	font-size: 18px;
+	text-align: justify;
+	margin: 15px auto;
+
+}
 /*Stilo dos links - pagina receitas*/
 
 #link{
@@ -829,4 +863,10 @@ header div {
 	margin: 20px auto;	
 	border-color: #F4D06F;
 	border-width: medium;
+}
+
+#enviaremail{
+	width: 120px;
+	margin-left: 40%;
+
 }
