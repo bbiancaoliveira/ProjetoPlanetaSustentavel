@@ -805,6 +805,13 @@ header div {
 	margin: 50px auto;
 }
 
+.reflorestamento img{
+	width: 100%;
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+}
+
 .reflorestamento h1{
 	width: 100%;
 	display: block;
